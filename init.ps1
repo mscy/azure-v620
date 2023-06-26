@@ -33,6 +33,6 @@ Function Install-Project()
 
   set-alias v620init_vm -value Install-Project
 
-  export-modulemember -alias 'v620init_vm'
+  export-modulemember -alias 'azinit'
 }
 
