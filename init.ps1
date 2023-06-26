@@ -16,7 +16,7 @@ Function Install-Project()
 	copy .\az\azcopy_windows_amd64_10.19.0\*.* C:\Windows\
 
 	Write-Output "Download GS(WL)"
-	azcopy cp “https://setupsource.blob.core.windows.net/file/Ver_4.16.0.3.zip?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2223-06-20T10:47:46Z&st=2023-06-20T02:47:46Z&spr=https,http&sig=wPpS0%2B9ubaL9GhqmCLHq8sA8V%2F6NoLoAxFF38vZ%2BB8s%3D”  .\Ver_4.16.0.3.zip
+	azcopy cp 'https://setupsource.blob.core.windows.net/file/Ver_4.16.0.3.zip?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2223-06-20T10:47:46Z&st=2023-06-20T02:47:46Z&spr=https,http&sig=wPpS0%2B9ubaL9GhqmCLHq8sA8V%2F6NoLoAxFF38vZ%2BB8s%3D'  .\Ver_4.16.0.3.zip
 	Expand-Archive .\Ver_4.16.0.3.zip c:\
 
 	Write-Output "Download WL Setup helper"
