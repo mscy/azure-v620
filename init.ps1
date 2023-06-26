@@ -31,8 +31,8 @@ Function Install-Project()
 	Write-Output "Done"
 }
 
-  set-alias v620init -value Install-Project
+  set-alias v620init_vm -value Install-Project
 
-  export-modulemember -alias 'install'
+  export-modulemember -alias 'v620init_vm'
 }
 
