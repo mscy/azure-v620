@@ -31,8 +31,8 @@ Function Install-Project()
 	Write-Output "Done"
 }
 
-  set-alias v620init_vm -value Install-Project
+  set-alias azinit -value Install-Project
 
-  export-modulemember -alias 'azinit'
+  export-modulemember -function 'Install-Project' -alias 'azinit'
 }
 
