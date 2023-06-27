@@ -2,12 +2,10 @@ new-module -name v620init -scriptblock {
 
 Function Install-Project()
 {
-
 	
 	$ver = "0.01b"
 	Write-Output "Azure AMD V620(NG) Setup source for WL env"
 	Write-Output $ver
-
 
 	Write-Output "Download AMD V620 Driver"
 	wget https://download.microsoft.com/download/b/5/9/b5906014-ea8f-4195-83fa-e016e11dc141/AMD-Azure-Cloud-Gaming-Driver-380774E-22Q2.exe -outfile amdv620.exe
@@ -35,9 +33,7 @@ Function Install-Project()
 
 	Write-Output "Done"
 }
-
   set-alias azinit -value Install-Project
-
   export-modulemember -function 'Install-Project' -alias 'azinit'
 }
 
