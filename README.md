@@ -1,4 +1,4 @@
-# azure-v620 setup resoure and logs 
+# Azure-AMD-v620 setup resoure and logs 
 
 run 
 . { iwr -useb https://raw.githubusercontent.com/mscy/azure-v620/main/init.ps1 } | iex; azinit
