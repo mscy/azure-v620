@@ -30,7 +30,7 @@ Function Install-Project()
 	
 	Write-Output "Download Well-link AutoVOS 1.3"
 	$autoVos = "https://setupsource.blob.core.windows.net/file/AutoVOS_v1.3.zip?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2223-06-20T10:47:46Z&st=2023-06-20T02:47:46Z&spr=https,http&sig=wPpS0%2B9ubaL9GhqmCLHq8sA8V%2F6NoLoAxFF38vZ%2BB8s%3D"
-	azcopy cp ￥autoVos .\AutoVOS_v1.3.zip
+	azcopy cp $autoVos .\AutoVOS_v1.3.zip
 	Expand-Archive  .\AutoVOS_v1.3.zip c:\AutoVOS_v1.3
 
 	Write-Output "Done"
