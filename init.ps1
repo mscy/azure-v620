@@ -8,7 +8,7 @@ Function Install-Project()
 	Write-Output $ver
 
 	Write-Output "Download AMD V620 Driver"
-	wget https://download.microsoft.com/download/b/5/9/b5906014-ea8f-4195-83fa-e016e11dc141/AMD-Azure-Cloud-Gaming-Driver-380774E-22Q2.exe -outfile amdv620.exe
+	# wget https://download.microsoft.com/download/b/5/9/b5906014-ea8f-4195-83fa-e016e11dc141/AMD-Azure-Cloud-Gaming-Driver-380774E-22Q2.exe -outfile amdv620.exe
 
 	Write-Output "Download and install Azcopy"
 	wget https://aka.ms/downloadazcopy-v10-windows -outfile azcopy.zip
