@@ -3,7 +3,7 @@ new-module -name v620init -scriptblock {
 Function Install-Project()
 {
 	
-	$ver = "0.01b"
+	$ver = "0.02a"
 	Write-Output "Azure AMD V620(NG) Setup source for WL env"
 	Write-Output $ver
 
