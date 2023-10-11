@@ -24,3 +24,6 @@ x86BasicEnvironment.exe  -step="latest" <br>
 <br>
 用户名:administrator <br>
 密码:rZ2fT7gH3N <br>
+
+443,5985,3389
+3000-11000
