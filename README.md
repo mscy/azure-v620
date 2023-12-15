@@ -27,3 +27,11 @@ x86BasicEnvironment.exe  -step="latest" <br>
 
 443,5985,3389
 3000-11000
+
+//ALI GPU INSTALL 
+$InstalledPlugins = $(acs-plugin-manager --list --local)
+if ($($InstalledPlugins | Select-String "grid_driver_install"))
+   {
+     acs-plugin-manager --remove --plugin grid_driver_install
+   } 
+acs-plugin-manager --fetchTimeout 0 --exec --plugin grid_driver_install
