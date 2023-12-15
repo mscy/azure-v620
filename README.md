@@ -28,7 +28,7 @@ x86BasicEnvironment.exe  -step="latest" <br>
 443,5985,3389
 3000-11000
 
-//ALI GPU INSTALL 
+//ALI GPU INSTALL <BR>
 $InstalledPlugins = $(acs-plugin-manager --list --local)
 if ($($InstalledPlugins | Select-String "grid_driver_install"))
    {
