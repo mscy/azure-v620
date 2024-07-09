@@ -16,5 +16,5 @@ Function Install-WlPerf()
 	Write-Output "Done"
 }
 set-alias wlperfset -value Install-WlPerf
-export-modulemember -function 'Install-WlPerf' -alias 'wlperf'
+export-modulemember -function 'Install-WlPerf' -alias 'wlperfset'
 }
