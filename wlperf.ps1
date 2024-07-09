@@ -15,6 +15,6 @@ Function Install-WlPerf()
     Write-Output "run  c:\wlperf\startperf.ps1 to start collect perflog"
 	Write-Output "Done"
 }
-set-alias wlperf -value Install-WlPerf
+set-alias wlperfset -value Install-WlPerf
 export-modulemember -function 'Install-WlPerf' -alias 'wlperf'
 }
