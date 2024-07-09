@@ -30,6 +30,8 @@ x86BasicEnvironment.exe  -step="latest" <br>
 
 https://help.aliyun.com/zh/egs/user-guide/use-cloud-assistant-to-automatically-install-and-upgrade-grid-drivers#e70e4a203disb
 
+https://bgp.he.net/
+
 //ALI GPU INSTALL <BR>
 $InstalledPlugins = $(acs-plugin-manager --list --local)
 if ($($InstalledPlugins | Select-String "grid_driver_install"))
