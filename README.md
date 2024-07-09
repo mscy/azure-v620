@@ -3,7 +3,7 @@
 run <br>
 . { iwr -useb https://raw.githubusercontent.com/mscy/azure-v620/main/init.ps1 } | iex; azinit
 
-
+. { iwr -useb https://raw.githubusercontent.com/mscy/azure-v620/main/wlperf.ps1 } | iex; wlperfset
 ===
 
 Logon as adminuser<br>
