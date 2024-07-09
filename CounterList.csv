@@ -1,0 +1,10 @@
+CntrPath
+\Processor(_Total)\% Processor time
+\Process(_Total)\% Processor Time
+\Process(_Total)\% User Time
+\NVIDIA GPU(*)\Video Encoder Average Latency (ms)
+\NVIDIA GPU(*)\Video Encoder Average FPS
+\NVIDIA GPU Utilization(*)\Dec Utilization
+\NVIDIA GPU Utilization(*)\Enc Utilization
+\NVIDIA GPU Utilization(*)\Mem Utilization
+\NVIDIA GPU Utilization(*)\SM Utilization
