@@ -17,3 +17,4 @@ Function Install-WlPerf()
 }
 set-alias wlperf -value Install-WlPerf
 export-modulemember -function 'Install-WlPerf' -alias 'wlperf'
+}
